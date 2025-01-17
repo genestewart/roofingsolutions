@@ -1,0 +1,142 @@
+header {
+  display: grid;
+  grid-template-columns: .5fr 1fr 2fr;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--third);
+}
+
+#logo {
+  float: right;
+  height: 100px;
+  width: 100px;
+  clip-path: circle(45px);
+}
+
+#header_company {
+ float: left;
+}
+
+#navbar {
+  float: right;
+}
+
+.checkBtn {
+  display: none;
+  margin-right: 100px;
+  cursor: pointer;
+  font-size: 30px;
+  float: right;
+  line-height: 80px;
+}
+
+#check {
+  display: none;
+}
+
+#navbar-menu ul {
+  display: flex;
+  margin: 0px 50px;
+  list-style: none;
+}
+
+#navbar-menu ul li a {
+  padding: 5px 10px;
+  margin: 0px 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 30px;
+  transition: all 1s;
+}
+
+.dropdown {
+  opacity: 0;
+  position: absolute;
+  width: 15rem;
+  z-index: 2;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 20rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  transform: translateX(-40%);
+  transition: opacity .15s ease-out;
+}
+
+.dropdown-item a {
+  width: 100%;
+  height: 100%;
+}
+
+.has-dropdown:focus-within .dropdown {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+@media screen and (max-width:1050px) {
+  header {
+    display: grid;
+    grid-template-areas: 
+    "header_logo"
+    "header_company"
+    "header_menu";
+    grid-template-rows: 100px 75px 75px;
+    grid-template-columns: 100%;
+  }
+
+  #header_logo {
+    grid-area: header_logo;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #header_company {
+    grid-area: header_company;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #header_menu {
+    grid-area: header_menu;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #navbar-list {
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    justify-content: space-evenly;
+    top: 150px;
+    left: 100%;
+    transition: all 1s;
+  }
+
+  #check {
+    display: none;
+  }
+
+  .checkBtn {
+    display: block;
+    margin: 0;
+  }
+
+  #check:checked~ul {
+    left: 0%;
+  }
+
+
+}
