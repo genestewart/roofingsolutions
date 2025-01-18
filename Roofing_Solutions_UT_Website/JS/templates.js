@@ -1,7 +1,7 @@
 class MyHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = 
-    '<header id="header">
+    `<header id="header">
     <div id="header_logo">
       <img src="images/16052376-skyscraper-icon.jpg" alt="Logo" id="logo">
     </div>
@@ -30,7 +30,7 @@ class MyHeader extends HTMLElement {
           </div>
         </nav>
     </div>
-  </header>'
+  </header>`
   }
 }
 
