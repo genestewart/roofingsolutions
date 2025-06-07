@@ -1,36 +1,4 @@
-@import url(/Fontawesome/css/all.css);
-
-:root {
-  --main: #31B7DF;
-  --secondary: #ABEAF6;
-  --third: #CAD6D9;
-  --fourth: #567894;
-  --fifth: #9ea0a1;
-  --headings: #424242;
-  --text: #37474F;
-}
-
-.headings {
-  color: var(--headings);
-}
-
-.text {
-  color: var(--text);
-}
-
-.buttons {
-  background-color: var(--secondary);
-  color: var(--text);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
-}
-
-.buttons:hover {
-  background-color: var(--fourth);
-  color: var(--third);
-  border-color: var(--third);
-  cursor: pointer;
-}
-
+/* Resetting default styles */
 * {
   margin: 0;
   padding: 0;
@@ -38,33 +6,265 @@
 }
 
 body {
+  font-family: 'Open Sans', sans-serif;
+  color: #4A4A4A;
+  background-color: #FFFFFF;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #003B75;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header .logo img {
+  height: 50px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header .cta-btn {
+  background-color: #003B75;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+header .cta-btn:hover {
+  background-color: #00B4F1;
+}
+
+/* Hero Section */
+.hero {
+  background: url('hero-placeholder.jpg') no-repeat center center/cover;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  background-color: #003B75;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 25px;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero button.secondary-btn {
+  background-color: #00B4F1;
+}
+
+.hero button:hover {
+  background-color: #00B4F1;
+}
+
+/* Why Choose Us */
+.why-choose-us {
+  padding: 60px 20px;
+  background-color: #B0DAF5;
+  text-align: center;
+}
+
+.why-choose-us h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.why-choose-us p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.why-choose-us .cta-btn {
+  background-color: #003B75;
+}
+
+/* Services Overview */
+.services-overview {
+  padding: 60px 20px;
+}
+
+.services-overview h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.services-overview .services-list {
   display: grid;
-  grid-template-areas: 
-  "header"
-  "main"
-  "second"
-  "footer";
-  grid-template-rows: auto 1fr 1fr auto;
-  grid-template-columns: 100%;
-  height: 100vh;
-  height: 100dvh;
-  width: 100vw;
-  width: 100dvw;
-  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  text-align: center;
 }
 
-#header {
-  grid-area: header;
+.services-overview .service-card {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-#main {
-  grid-area: main;
+.services-overview .service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
 }
 
-#second {
-  grid-area: second;
+.services-overview .cta-btn {
+  background-color: #003B75;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-#footer {
-  grid-area: footer;
+.services-overview .cta-btn:hover {
+  background-color: #00B4F1;
+}
+
+/* Portfolio */
+.portfolio {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.portfolio h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.portfolio p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.portfolio .cta-btn {
+  background-color: #003B75;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.portfolio .cta-btn:hover {
+  background-color: #00B4F1;
+}
+
+/* Testimonials */
+.testimonials {
+  padding: 60px 20px;
+  background-color: #B0DAF5;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.testimonials p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.testimonials .cta-btn {
+  background-color: #003B75;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.testimonials .cta-btn:hover {
+  background-color: #00B4F1;
+}
+
+/* Footer */
+footer {
+  padding: 40px 20px;
+  background-color: #003B75;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px;
+}
+
+footer nav ul li {
+  margin-right: 20px;
+}
+
+footer nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+footer .contact-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+footer .social-media a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 10px;
 }
