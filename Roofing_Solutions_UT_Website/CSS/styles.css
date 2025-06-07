@@ -24,7 +24,7 @@ header {
 }
 
 header .logo img {
-  height: 50px;
+  height: 150px;
 }
 
 header nav ul {
@@ -53,22 +53,6 @@ header nav ul li.dropdown:hover .dropdown-content {
   display: block;
 }
 
-header nav .cta-btn {
-  background-color: #003B75;
-  color: #FFFFFF;
-  padding: 10px 20px;
-  border-radius: 25px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  cursor: pointer;
-  border: none;
-  transition: background-color 0.3s;
-}
-
-header nav .cta-btn:hover {
-  background-color: #00B4F1;
-}
-
 /* Dropdown Menu */
 .dropdown-content {
   display: none;
@@ -92,6 +76,67 @@ header nav .cta-btn:hover {
 
 .dropdown-content li a:hover {
   background-color: #B0DAF5;
+}
+
+/* Secondary Dropdowns (hidden until hover) */
+.secondary-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  left: 100%;
+  top: 0;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.secondary-dropdown li {
+  padding: 10px 20px;
+}
+
+.secondary-dropdown li a {
+  color: #003B75;
+  text-decoration: none;
+}
+
+.secondary-dropdown li a:hover {
+  background-color: #B0DAF5;
+}
+
+/* Show secondary dropdown on hover of parent */
+.dropdown > a:hover + .secondary-dropdown {
+  display: block;
+}
+
+/* Button and Links */
+.cta-btn {
+  background-color: #003B75;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #00B4F1;
+}
+
+.secondary-btn {
+  background-color: #00B4F1;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+.secondary-btn:hover {
+  background-color: #003B75;
 }
 
 /* Hero Section */
