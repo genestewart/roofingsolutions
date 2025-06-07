@@ -34,15 +34,26 @@ header nav ul {
 
 header nav ul li {
   margin-right: 20px;
+  position: relative;
 }
 
 header nav ul li a {
   color: #FFFFFF;
   text-decoration: none;
   font-weight: bold;
+  font-size: 16px;
+  transition: font-size 0.3s;
 }
 
-header .cta-btn {
+header nav ul li a:hover {
+  font-size: 18px;
+}
+
+header nav ul li.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header nav .cta-btn {
   background-color: #003B75;
   color: #FFFFFF;
   padding: 10px 20px;
@@ -54,8 +65,33 @@ header .cta-btn {
   transition: background-color 0.3s;
 }
 
-header .cta-btn:hover {
+header nav .cta-btn:hover {
   background-color: #00B4F1;
+}
+
+/* Dropdown Menu */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+}
+
+.dropdown-content li {
+  padding: 10px 20px;
+}
+
+.dropdown-content li a {
+  color: #003B75;
+  text-decoration: none;
+}
+
+.dropdown-content li a:hover {
+  background-color: #B0DAF5;
 }
 
 /* Hero Section */
@@ -97,144 +133,55 @@ header .cta-btn:hover {
   background-color: #00B4F1;
 }
 
-/* Why Choose Us */
-.why-choose-us {
+/* Section Styles */
+.why-choose-us, .services-overview, .portfolio, .testimonials {
   padding: 60px 20px;
-  background-color: #B0DAF5;
-  text-align: center;
 }
 
-.why-choose-us h2 {
+h2 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
-.why-choose-us p {
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-
-.why-choose-us .cta-btn {
+button.cta-btn {
   background-color: #003B75;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-/* Services Overview */
-.services-overview {
-  padding: 60px 20px;
+button.cta-btn:hover {
+  background-color: #00B4F1;
 }
 
-.services-overview h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 36px;
-  margin-bottom: 20px;
+.service-card {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.services-overview .services-list {
+.service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.services-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   text-align: center;
 }
 
-.services-overview .service-card {
-  background-color: #FFFFFF;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.services-overview .service-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
-}
-
-.services-overview .cta-btn {
-  background-color: #003B75;
-  color: #FFFFFF;
-  padding: 15px 30px;
-  border-radius: 25px;
-  border: none;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.services-overview .cta-btn:hover {
-  background-color: #00B4F1;
-}
-
-/* Portfolio */
-.portfolio {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.portfolio h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-.portfolio p {
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-
-.portfolio .cta-btn {
-  background-color: #003B75;
-  color: #FFFFFF;
-  padding: 15px 30px;
-  border-radius: 25px;
-  border: none;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.portfolio .cta-btn:hover {
-  background-color: #00B4F1;
-}
-
-/* Testimonials */
-.testimonials {
-  padding: 60px 20px;
-  background-color: #B0DAF5;
-  text-align: center;
-}
-
-.testimonials h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-.testimonials p {
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-
-.testimonials .cta-btn {
-  background-color: #003B75;
-  color: #FFFFFF;
-  padding: 15px 30px;
-  border-radius: 25px;
-  border: none;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.testimonials .cta-btn:hover {
-  background-color: #00B4F1;
-}
-
-/* Footer */
 footer {
   padding: 40px 20px;
   background-color: #003B75;
