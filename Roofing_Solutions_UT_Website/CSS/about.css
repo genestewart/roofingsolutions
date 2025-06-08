@@ -1,0 +1,383 @@
+/* About Us Section Styles */
+.about-us {
+  padding: 60px 20px;
+  background-color: #B0DAF5; /* Light Steel Blue background for this section */
+  text-align: center;
+}
+
+.about-us .content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-us h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #003B75; /* Deep Ocean Blue */
+  margin-bottom: 30px;
+}
+
+.about-us p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #4A4A4A; /* Slate Gray */
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-us h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: #003B75; /* Deep Ocean Blue */
+  margin-bottom: 15px;
+}
+
+.about-us button.cta-btn {
+  background-color: #003B75; /* Deep Ocean Blue */
+  color: #FFFFFF;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+  margin-top: 30px;
+}
+
+.about-us button.cta-btn:hover {
+  background-color: #00B4F1; /* Sky Blue */
+}
+
+/* Contact Us Section Styles */
+.contact-us {
+  padding: 60px 20px;
+  background-color: #B0DAF5; /* Light Steel Blue background for this section */
+  text-align: center;
+}
+
+.contact-us .content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-us h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #003B75; /* Deep Ocean Blue */
+  margin-bottom: 30px;
+}
+
+.contact-us p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #4A4A4A; /* Slate Gray */
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.contact-us form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-us .form-group {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.contact-us .form-group label {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #003B75; /* Deep Ocean Blue */
+  margin-bottom: 5px;
+}
+
+.contact-us .form-group input, 
+.contact-us .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-us .form-group textarea {
+  resize: vertical;
+}
+
+.contact-us button.cta-btn {
+  background-color: #003B75; /* Deep Ocean Blue */
+  color: #FFFFFF;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.contact-us button.cta-btn:hover {
+  background-color: #00B4F1; /* Sky Blue */
+}
+
+/* Service Areas Section Styles */
+.service-areas {
+  padding: 60px 20px;
+  background-color: #B0DAF5; /* Light Steel Blue background for this section */
+  text-align: center;
+}
+
+.service-areas .content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.service-areas h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #003B75; /* Deep Ocean Blue */
+  margin-bottom: 30px;
+}
+
+.service-areas p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #4A4A4A; /* Slate Gray */
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.service-areas button.cta-btn {
+  background-color: #003B75; /* Deep Ocean Blue */
+  color: #FFFFFF;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.service-areas button.cta-btn:hover {
+  background-color: #00B4F1; /* Sky Blue */
+}
+
+/* FAQs Section Styles */
+.faqs {
+  padding: 60px 20px;
+  background-color: #B0DAF5; /* Light Steel Blue background for this section */
+  text-align: center;
+}
+
+.faqs .content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faqs h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #003B75; /* Deep Ocean Blue */
+  margin-bottom: 30px;
+}
+
+.faqs p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #4A4A4A; /* Slate Gray */
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.faqs .faq-item {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.faqs .faq-item h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  color: #003B75; /* Deep Ocean Blue */
+  margin-bottom: 10px;
+}
+
+.faqs .faq-item p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #4A4A4A; /* Slate Gray */
+}
+
+.faqs button.cta-btn {
+  background-color: #003B75; /* Deep Ocean Blue */
+  color: #FFFFFF;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+  margin-top: 30px;
+}
+
+.faqs button.cta-btn:hover {
+  background-color: #00B4F1; /* Sky Blue */
+}
+
+/* Portfolio Section Styles */
+.portfolio {
+  padding: 60px 20px;
+  background-color: #B0DAF5; /* Light Steel Blue background for this section */
+  text-align: center;
+}
+
+.portfolio .content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.portfolio h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #003B75; /* Deep Ocean Blue */
+  margin-bottom: 30px;
+}
+
+.portfolio p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #4A4A4A; /* Slate Gray */
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+
+.project-category {
+  margin-bottom: 50px;
+}
+
+.project-category h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: #003B75; /* Deep Ocean Blue */
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio .cta-btn {
+  background-color: #003B75; /* Deep Ocean Blue */
+  color: #FFFFFF;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+  margin-top: 30px;
+}
+
+.portfolio .cta-btn:hover {
+  background-color: #00B4F1; /* Sky Blue */
+}
+
+/* Testimonials Section Styles */
+.testimonials {
+  padding: 60px 20px;
+  background-color: #B0DAF5; /* Light Steel Blue background for this section */
+  text-align: center;
+}
+
+.testimonials .content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.testimonials h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #003B75; /* Deep Ocean Blue */
+  margin-bottom: 30px;
+}
+
+.testimonials p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #4A4A4A; /* Slate Gray */
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+
+.testimonial {
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.testimonial p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #4A4A4A; /* Slate Gray */
+  margin-bottom: 15px;
+}
+
+.testimonial strong {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #003B75; /* Deep Ocean Blue */
+}
+
+.testimonial span {
+  display: block;
+  color: #4A4A4A;
+}
+
+.testimonials .cta-btn {
+  background-color: #003B75; /* Deep Ocean Blue */
+  color: #FFFFFF;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+  margin-top: 30px;
+}
+
+.testimonials .cta-btn:hover {
+  background-color: #00B4F1; /* Sky Blue */
+}
