@@ -123,7 +123,7 @@ header nav ul li.dropdown:hover .dropdown-content {
 
 /* Hero Section */
 .hero {
-  background: url('/RoofingSolutions/roofingsolutions/Roofing_Solutions_UT_Website/images/hero.png') no-repeat center center/cover;
+  background: url('../images/hero.png') no-repeat center center/cover;
   height: 75vh;
   color: var(--text-white);
   text-align: center;
