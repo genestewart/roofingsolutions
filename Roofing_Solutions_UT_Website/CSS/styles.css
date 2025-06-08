@@ -141,21 +141,25 @@ header nav ul li.dropdown:hover .dropdown-content {
 
 /* Hero Section */
 .hero {
-  background: url('hero-placeholder.jpg') no-repeat center center/cover;
+  background: url('/Roofing_Solutions_UT_Website/images/hero.png') no-repeat center center/cover;
+  height: 75vh;
   color: #FFFFFF;
   text-align: center;
   padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero h1 {
   font-family: 'Playfair Display', serif;
   font-size: 48px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 .hero p {
   font-size: 18px;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
 .hero button {
@@ -171,7 +175,7 @@ header nav ul li.dropdown:hover .dropdown-content {
 }
 
 .hero button.secondary-btn {
-  background-color: #00B4F1;
+  background-color: #003B75;
 }
 
 .hero button:hover {
@@ -180,36 +184,48 @@ header nav ul li.dropdown:hover .dropdown-content {
 
 /* Why Choose Us */
 .why-choose-us {
-  padding: 60px 20px;
+  height: 75vh;
+  padding: 100px 100px;
   background-color: #B0DAF5;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .why-choose-us h2 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 .why-choose-us p {
   font-size: 18px;
-  margin-bottom: 30px;
-}
-
-.why-choose-us .cta-btn {
-  background-color: #003B75;
+  margin-bottom: 100px;
 }
 
 /* Services Overview */
 .services-overview {
+  height: 100vh;
   padding: 60px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .services-overview h2 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 75px;
   text-align: center;
+}
+
+.services-overview p {
+  font-size: 18px;
+  margin-bottom: 75px;
 }
 
 .services-overview .services-list {
@@ -220,11 +236,95 @@ header nav ul li.dropdown:hover .dropdown-content {
 }
 
 .services-overview .service-card {
-  background-color: #FFFFFF;
+  height: 500px;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#residential-roofing {
+  position:relative;
+  display:inline-block;
+}
+
+#residential-roofing:before {
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  z-index:-1;
+  opacity:0.5;
+  background-image: url("/Roofing_Solutions_UT_Website/images/residential_card.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#commercial-roofing {
+  position:relative;
+  display:inline-block;
+}
+#commercial-roofing:before {
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  z-index:-1;
+  opacity:0.5;
+  background-image: url("/Roofing_Solutions_UT_Website/images/commercial_card.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#snow-removal {
+  position:relative;
+  display:inline-block;
+}
+
+#snow-removal:before {
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  z-index:-1;
+  opacity:0.5;
+  background-image: url("/Roofing_Solutions_UT_Website/images/snow_card.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#consulting {
+  position:relative;
+  display:inline-block;
+}
+
+#consulting:before {
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  z-index:-1;
+  opacity:0.5;
+  background-image: url("/Roofing_Solutions_UT_Website/images/consulting_card.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .services-overview .service-card:hover {
@@ -232,87 +332,49 @@ header nav ul li.dropdown:hover .dropdown-content {
   box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
 }
 
-.services-overview .cta-btn {
-  background-color: #003B75;
-  color: #FFFFFF;
-  padding: 15px 30px;
-  border-radius: 25px;
-  border: none;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.services-overview .cta-btn:hover {
-  background-color: #00B4F1;
-}
-
 /* Portfolio */
 .portfolio {
+  height: 50vh;
+  background-color: #B0DAF5;
   padding: 60px 20px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio h2 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .portfolio p {
   font-size: 18px;
-  margin-bottom: 30px;
-}
-
-.portfolio .cta-btn {
-  background-color: #003B75;
-  color: #FFFFFF;
-  padding: 15px 30px;
-  border-radius: 25px;
-  border: none;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.portfolio .cta-btn:hover {
-  background-color: #00B4F1;
+  margin-bottom: 40px;
 }
 
 /* Testimonials */
 .testimonials {
+  height: 50vh;
   padding: 60px 20px;
-  background-color: #B0DAF5;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .testimonials h2 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .testimonials p {
   font-size: 18px;
-  margin-bottom: 30px;
-}
-
-.testimonials .cta-btn {
-  background-color: #003B75;
-  color: #FFFFFF;
-  padding: 15px 30px;
-  border-radius: 25px;
-  border: none;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.testimonials .cta-btn:hover {
-  background-color: #00B4F1;
+  margin-bottom: 40px;
 }
 
 /* Footer */
