@@ -1,3 +1,14 @@
+:root {
+  --primary: #003B75;
+  --secondary: #00B4F1;
+  --accent: #B0DAF5;
+  --text: #4A4A4A;
+  --text-white: #DBDBDB;
+  --text-grey: #4A4A4A;
+  --text-black: #0F0F0F;
+  --background: #FFFFFF;
+}
+
 /* Resetting default styles */
 * {
   margin: 0;
@@ -7,8 +18,8 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #4A4A4A;
-  background-color: #FFFFFF;
+  color: var(--text-grey);
+  background-color: var(--background);
 }
 
 /* Header */
@@ -16,7 +27,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #003B75;
+  background-color: var(--primary);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -38,7 +49,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #FFFFFF;
+  color: var(--text-white);
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
@@ -57,12 +68,12 @@ header nav ul li.dropdown:hover .dropdown-content {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #FFFFFF;
+  background-color: var(--background);
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
   top: 100%;
   left: 0;
-  min-width: 200px;
+  min-width: 250px;
 }
 
 .dropdown-content li {
@@ -70,47 +81,18 @@ header nav ul li.dropdown:hover .dropdown-content {
 }
 
 .dropdown-content li a {
-  color: #003B75;
+  color: var(--text-black);
   text-decoration: none;
 }
 
 .dropdown-content li a:hover {
-  background-color: #B0DAF5;
-}
-
-/* Secondary Dropdowns (hidden until hover) */
-.secondary-dropdown {
-  display: none;
-  position: absolute;
-  background-color: #FFFFFF;
-  left: 100%;
-  top: 0;
-  min-width: 200px;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.secondary-dropdown li {
-  padding: 10px 20px;
-}
-
-.secondary-dropdown li a {
-  color: #003B75;
-  text-decoration: none;
-}
-
-.secondary-dropdown li a:hover {
-  background-color: #B0DAF5;
-}
-
-/* Show secondary dropdown on hover of parent */
-.dropdown > a:hover + .secondary-dropdown {
-  display: block;
+  background-color: var(--accent);
 }
 
 /* Button and Links */
 .cta-btn {
-  background-color: #003B75;
-  color: #FFFFFF;
+  background-color: var(--primary);
+  color: var(--text-white);
   padding: 10px 20px;
   border-radius: 25px;
   font-family: 'Montserrat', sans-serif;
@@ -121,12 +103,12 @@ header nav ul li.dropdown:hover .dropdown-content {
 }
 
 .cta-btn:hover {
-  background-color: #00B4F1;
+  background-color: var(--secondary);
 }
 
 .secondary-btn {
-  background-color: #00B4F1;
-  color: #FFFFFF;
+  background-color: var(--secondary);
+  color: var(--text-white);
   padding: 10px 20px;
   border-radius: 25px;
   font-family: 'Montserrat', sans-serif;
@@ -136,14 +118,14 @@ header nav ul li.dropdown:hover .dropdown-content {
 }
 
 .secondary-btn:hover {
-  background-color: #003B75;
+  background-color: var(--primary);
 }
 
 /* Hero Section */
 .hero {
-  background: url('/Roofing_Solutions_UT_Website/images/hero.png') no-repeat center center/cover;
+  background: url('/RoofingSolutions/roofingsolutions/Roofing_Solutions_UT_Website/images/hero.png') no-repeat center center/cover;
   height: 75vh;
-  color: #FFFFFF;
+  color: var(--text-white);
   text-align: center;
   padding: 100px 20px;
   display: flex;
@@ -163,8 +145,8 @@ header nav ul li.dropdown:hover .dropdown-content {
 }
 
 .hero button {
-  background-color: #003B75;
-  color: #FFFFFF;
+  background-color: var(--primary);
+  color: var(--text-white);
   padding: 15px 30px;
   font-family: 'Montserrat', sans-serif;
   border-radius: 25px;
@@ -175,18 +157,18 @@ header nav ul li.dropdown:hover .dropdown-content {
 }
 
 .hero button.secondary-btn {
-  background-color: #003B75;
+  background-color: var(--primary);
 }
 
 .hero button:hover {
-  background-color: #00B4F1;
+  background-color: var(--secondary);
 }
 
 /* Why Choose Us */
 .why-choose-us {
   height: 75vh;
   padding: 100px 100px;
-  background-color: #B0DAF5;
+  background-color: var(--accent);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -207,20 +189,17 @@ header nav ul li.dropdown:hover .dropdown-content {
 
 /* Services Overview */
 .services-overview {
-  height: 100vh;
+  height: auto;
   padding: 60px 20px;
-  text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .services-overview h2 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
   margin-bottom: 75px;
-  text-align: center;
 }
 
 .services-overview p {
@@ -228,114 +207,108 @@ header nav ul li.dropdown:hover .dropdown-content {
   margin-bottom: 75px;
 }
 
-.services-overview .services-list {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
-  text-align: center;
+  margin: 6% auto 0;
 }
 
-.services-overview .service-card {
-  height: 500px;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
-  text-align: center;
+.single-card {
+  position: relative;
+  width: 280px;
+  height: 400px;
+  margin: 15px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s ease;
+  overflow: hidden;
+  background: var(--accent);
+  border-radius: 15px;
+  transition: all 0.8s ease-in-out;
+}
+
+.single-card:hover {
+  transform: translateY(-10px);
+}
+
+.img-area {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.img-area img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.img-area:hover img {
+  transform: scale(1.1);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--accent 0.5);
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 
-#residential-roofing {
-  position:relative;
-  display:inline-block;
+.single-card:hover img {
+	opacity: 0.5;
 }
 
-#residential-roofing:before {
-  content:"";
-  position:absolute;
-  width:100%;
-  height:100%;
-  left:0;
-  top:0;
-  z-index:-1;
-  opacity:0.5;
-  background-image: url("/Roofing_Solutions_UT_Website/images/residential_card.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.single-card:hover .overlay {
+	opacity: 1;
 }
 
-#commercial-roofing {
-  position:relative;
-  display:inline-block;
-}
-#commercial-roofing:before {
-  content:"";
-  position:absolute;
-  width:100%;
-  height:100%;
-  left:0;
-  top:0;
-  z-index:-1;
-  opacity:0.5;
-  background-image: url("/Roofing_Solutions_UT_Website/images/commercial_card.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.view-details {
+	background-color: var(--primary);
+	color: var(--text-white);
+	padding: 10px 15px;
+	border-radius: 25px;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, color 0.3s ease;
+	margin-bottom: 10px;
 }
 
-#snow-removal {
-  position:relative;
-  display:inline-block;
+.info {
+	padding: 10px;
+	text-align: center;
 }
 
-#snow-removal:before {
-  content:"";
-  position:absolute;
-  width:100%;
-  height:100%;
-  left:0;
-  top:0;
-  z-index:-1;
-  opacity:0.5;
-  background-image: url("/Roofing_Solutions_UT_Website/images/snow_card.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.info h3 {
+  color: var(--text);
+	margin: 15px 0 10px;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
-#consulting {
-  position:relative;
-  display:inline-block;
-}
-
-#consulting:before {
-  content:"";
-  position:absolute;
-  width:100%;
-  height:100%;
-  left:0;
-  top:0;
-  z-index:-1;
-  opacity:0.5;
-  background-image: url("/Roofing_Solutions_UT_Website/images/consulting_card.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.services-overview .service-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+.info p {
+  color: var(--text);
+	font-size: 14px;
 }
 
 /* Portfolio */
 .portfolio {
   height: 50vh;
-  background-color: #B0DAF5;
+  background-color: var(--accent);
   padding: 60px 20px;
   text-align: center;
   display: flex;
@@ -377,11 +350,13 @@ header nav ul li.dropdown:hover .dropdown-content {
   margin-bottom: 40px;
 }
 
+
+
 /* Footer */
 footer {
   padding: 40px 20px;
-  background-color: #003B75;
-  color: #FFFFFF;
+  background-color: var(--primary);
+  color: var(--text-white);
   text-align: center;
 }
 
@@ -397,7 +372,7 @@ footer nav ul li {
 }
 
 footer nav ul li a {
-  color: #FFFFFF;
+  color: var(--text-white);
   text-decoration: none;
 }
 
@@ -407,7 +382,7 @@ footer .contact-info p {
 }
 
 footer .social-media a {
-  color: #FFFFFF;
+  color: var(--text-white);
   text-decoration: none;
   margin-right: 10px;
 }
