@@ -1,7 +1,7 @@
 /* Snow Services Section Styles */
 .snow-services {
   padding: 60px 20px;
-  background-color: #B0DAF5; /* Light Steel Blue background for this section */
+  background-color: var(--accent); /* Light Steel Blue background for this section */
   text-align: center;
 }
 
@@ -14,14 +14,14 @@
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: bold;
-  color: #003B75; /* Deep Ocean Blue */
+  color: var(--primary); /* Deep Ocean Blue */
   margin-bottom: 30px;
 }
 
 .snow-services p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: #4A4A4A; /* Slate Gray */
+  color: var(--text); /* Slate Gray */
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -33,20 +33,20 @@
 .snow-services .service-section h2 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
-  color: #003B75; /* Deep Ocean Blue */
+  color: var(--primary); /* Deep Ocean Blue */
   margin-bottom: 20px;
 }
 
 .snow-services .service-section p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: #4A4A4A; /* Slate Gray */
+  color: var(--text); /* Slate Gray */
   margin-bottom: 20px;
 }
 
 .snow-services button.cta-btn {
-  background-color: #003B75; /* Deep Ocean Blue */
-  color: #FFFFFF;
+  background-color: var(--primary); /* Deep Ocean Blue */
+  color: var(--background);
   padding: 15px 30px;
   border-radius: 25px;
   font-family: 'Montserrat', sans-serif;
@@ -57,5 +57,5 @@
 }
 
 .snow-services button.cta-btn:hover {
-  background-color: #00B4F1; /* Sky Blue */
+  background-color: var(--secondary); /* Sky Blue */
 }

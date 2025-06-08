@@ -1,7 +1,7 @@
 /* Commercial Roofing Section Styles */
 .commercial-roofing {
   padding: 60px 20px;
-  background-color: #B0DAF5; /* Light Steel Blue background for this section */
+  background-color: var(--accent); /* Light Steel Blue background for this section */
   text-align: center;
 }
 
@@ -14,14 +14,14 @@
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: bold;
-  color: #003B75; /* Deep Ocean Blue */
+  color: var(--primary); /* Deep Ocean Blue */
   margin-bottom: 30px;
 }
 
 .commercial-roofing p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: #4A4A4A; /* Slate Gray */
+  color: var(--text); /* Slate Gray */
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -33,20 +33,20 @@
 .commercial-roofing .roof-section h2 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
-  color: #003B75; /* Deep Ocean Blue */
+  color: var(--primary); /* Deep Ocean Blue */
   margin-bottom: 20px;
 }
 
 .commercial-roofing .roof-section p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: #4A4A4A; /* Slate Gray */
+  color: var(--text); /* Slate Gray */
   margin-bottom: 20px;
 }
 
 .commercial-roofing button.cta-btn {
-  background-color: #003B75; /* Deep Ocean Blue */
-  color: #FFFFFF;
+  background-color: var(--primary); /* Deep Ocean Blue */
+  color: var(--background);
   padding: 15px 30px;
   border-radius: 25px;
   font-family: 'Montserrat', sans-serif;
@@ -57,13 +57,13 @@
 }
 
 .commercial-roofing button.cta-btn:hover {
-  background-color: #00B4F1; /* Sky Blue */
+  background-color: var(--secondary); /* Sky Blue */
 }
 
 /* Consulting Section Styles */
 .consulting {
   padding: 60px 20px;
-  background-color: #B0DAF5; /* Light Steel Blue background for this section */
+  background-color: var(--accent); /* Light Steel Blue background for this section */
   text-align: center;
 }
 
@@ -76,14 +76,14 @@
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: bold;
-  color: #003B75; /* Deep Ocean Blue */
+  color: var(--primary); /* Deep Ocean Blue */
   margin-bottom: 30px;
 }
 
 .consulting p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: #4A4A4A; /* Slate Gray */
+  color: var(--text); /* Slate Gray */
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -91,7 +91,7 @@
 .consulting h2 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
-  color: #003B75; /* Deep Ocean Blue */
+  color: var(--primary); /* Deep Ocean Blue */
   margin-bottom: 20px;
 }
 
@@ -104,13 +104,13 @@
 .consulting ul li {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: #4A4A4A; /* Slate Gray */
+  color: var(--text); /* Slate Gray */
   margin-bottom: 15px;
 }
 
 .consulting button.cta-btn {
-  background-color: #003B75; /* Deep Ocean Blue */
-  color: #FFFFFF;
+  background-color: var(--primary); /* Deep Ocean Blue */
+  color: var(--background);
   padding: 15px 30px;
   border-radius: 25px;
   font-family: 'Montserrat', sans-serif;
@@ -122,5 +122,5 @@
 }
 
 .consulting button.cta-btn:hover {
-  background-color: #00B4F1; /* Sky Blue */
+  background-color: var(--secondary); /* Sky Blue */
 }

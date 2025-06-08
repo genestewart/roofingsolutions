@@ -1,7 +1,7 @@
 /* Metal Roofs Section Styles */
 .metal-roofs {
   padding: 60px 20px;
-  background-color: #B0DAF5; /* Light Steel Blue background for this section */
+  background-color: var(--accent); /* Light Steel Blue background for this section */
   text-align: center;
 }
 
@@ -14,14 +14,14 @@
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: bold;
-  color: #003B75; /* Deep Ocean Blue */
+  color: var(--primary); /* Deep Ocean Blue */
   margin-bottom: 30px;
 }
 
 .metal-roofs p, .metal-roofs ul, .metal-roofs ol {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: #4A4A4A; /* Slate Gray */
+  color: var(--text); /* Slate Gray */
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -29,7 +29,7 @@
 .metal-roofs h2 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
-  color: #003B75; /* Deep Ocean Blue */
+  color: var(--primary); /* Deep Ocean Blue */
   margin-bottom: 20px;
 }
 
@@ -44,8 +44,8 @@
 }
 
 .metal-roofs button.cta-btn {
-  background-color: #003B75; /* Deep Ocean Blue */
-  color: #FFFFFF;
+  background-color: var(--primary); /* Deep Ocean Blue */
+  color: var(--background);
   padding: 15px 30px;
   border-radius: 25px;
   font-family: 'Montserrat', sans-serif;
@@ -57,13 +57,13 @@
 }
 
 .metal-roofs button.cta-btn:hover {
-  background-color: #00B4F1; /* Sky Blue */
+  background-color: var(--secondary); /* Sky Blue */
 }
 
 /* Shingle Roofs Section Styles */
 .shingle-roofs {
   padding: 60px 20px;
-  background-color: #B0DAF5; /* Light Steel Blue background for this section */
+  background-color: var(--accent); /* Light Steel Blue background for this section */
   text-align: center;
 }
 
@@ -76,14 +76,14 @@
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: bold;
-  color: #003B75; /* Deep Ocean Blue */
+  color: var(--primary); /* Deep Ocean Blue */
   margin-bottom: 30px;
 }
 
 .shingle-roofs p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: #4A4A4A; /* Slate Gray */
+  color: var(--text); /* Slate Gray */
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -91,7 +91,7 @@
 .shingle-roofs h2 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
-  color: #003B75; /* Deep Ocean Blue */
+  color: var(--primary); /* Deep Ocean Blue */
   margin-bottom: 20px;
 }
 
@@ -104,13 +104,13 @@
 .shingle-roofs ul li {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: #4A4A4A; /* Slate Gray */
+  color: var(--text); /* Slate Gray */
   margin-bottom: 15px;
 }
 
 .shingle-roofs button.cta-btn {
-  background-color: #003B75; /* Deep Ocean Blue */
-  color: #FFFFFF;
+  background-color: var(--primary); /* Deep Ocean Blue */
+  color: var(--background);
   padding: 15px 30px;
   border-radius: 25px;
   font-family: 'Montserrat', sans-serif;
@@ -122,13 +122,13 @@
 }
 
 .shingle-roofs button.cta-btn:hover {
-  background-color: #00B4F1; /* Sky Blue */
+  background-color: var(--secondary); /* Sky Blue */
 }
 
 /* Flat Roofs Section Styles */
 .flat-roofs {
   padding: 60px 20px;
-  background-color: #B0DAF5; /* Light Steel Blue background for this section */
+  background-color: var(--accent); /* Light Steel Blue background for this section */
   text-align: center;
 }
 
@@ -141,14 +141,14 @@
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: bold;
-  color: #003B75; /* Deep Ocean Blue */
+  color: var(--primary); /* Deep Ocean Blue */
   margin-bottom: 30px;
 }
 
 .flat-roofs p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: #4A4A4A; /* Slate Gray */
+  color: var(--text); /* Slate Gray */
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -156,7 +156,7 @@
 .flat-roofs h2 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
-  color: #003B75; /* Deep Ocean Blue */
+  color: var(--primary); /* Deep Ocean Blue */
   margin-bottom: 20px;
 }
 
@@ -169,7 +169,7 @@
 .flat-roofs ul li {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: #4A4A4A; /* Slate Gray */
+  color: var(--text); /* Slate Gray */
   margin-bottom: 15px;
 }
 
@@ -181,13 +181,13 @@
 .flat-roofs ol li {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: #4A4A4A; /* Slate Gray */
+  color: var(--text); /* Slate Gray */
   margin-bottom: 15px;
 }
 
 .flat-roofs button.cta-btn {
-  background-color: #003B75; /* Deep Ocean Blue */
-  color: #FFFFFF;
+  background-color: var(--primary); /* Deep Ocean Blue */
+  color: var(--background);
   padding: 15px 30px;
   border-radius: 25px;
   font-family: 'Montserrat', sans-serif;
@@ -199,13 +199,13 @@
 }
 
 .flat-roofs button.cta-btn:hover {
-  background-color: #00B4F1; /* Sky Blue */
+  background-color: var(--secondary); /* Sky Blue */
 }
 
 /* Roof Replacement Section Styles */
 .roof-replacement {
   padding: 60px 20px;
-  background-color: #B0DAF5; /* Light Steel Blue background for this section */
+  background-color: var(--accent); /* Light Steel Blue background for this section */
   text-align: center;
 }
 
@@ -218,14 +218,14 @@
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: bold;
-  color: #003B75; /* Deep Ocean Blue */
+  color: var(--primary); /* Deep Ocean Blue */
   margin-bottom: 30px;
 }
 
 .roof-replacement p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: #4A4A4A; /* Slate Gray */
+  color: var(--text); /* Slate Gray */
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -233,7 +233,7 @@
 .roof-replacement h2 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
-  color: #003B75; /* Deep Ocean Blue */
+  color: var(--primary); /* Deep Ocean Blue */
   margin-bottom: 20px;
 }
 
@@ -246,13 +246,13 @@
 .roof-replacement ul li, .roof-replacement ol li {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: #4A4A4A; /* Slate Gray */
+  color: var(--text); /* Slate Gray */
   margin-bottom: 15px;
 }
 
 .roof-replacement button.cta-btn {
-  background-color: #003B75; /* Deep Ocean Blue */
-  color: #FFFFFF;
+  background-color: var(--primary); /* Deep Ocean Blue */
+  color: var(--background);
   padding: 15px 30px;
   border-radius: 25px;
   font-family: 'Montserrat', sans-serif;
@@ -264,5 +264,5 @@
 }
 
 .roof-replacement button.cta-btn:hover {
-  background-color: #00B4F1; /* Sky Blue */
+  background-color: var(--secondary); /* Sky Blue */
 }
