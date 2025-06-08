@@ -22,6 +22,11 @@ body {
   background-color: var(--background);
 }
 
+/* Offset anchored sections for sticky header */
+section[id] {
+  scroll-margin-top: 160px;
+}
+
 /* Header */
 header {
   display: flex;
