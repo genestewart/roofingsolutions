@@ -6,18 +6,45 @@
   <meta name="description" content="High-Quality Roofing & Snow Removal Services in Park City, Salt Lake City, and Beyond. Residential & Commercial Roofing.">
   <title>Roofing Solutions & Consulting</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400&family=Montserrat:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/Roofing_Solutions_UT_Website/CSS/styles.css">
+  <link rel="stylesheet" href="/RoofingSolutions/roofingsolutions/Roofing_Solutions_UT_Website/CSS/styles.css">
 </head>
 <body>
 
   <!-- Header (Navigation Bar) -->
   <header>
     <div class="logo">
-      <img src="/Roofing_Solutions_UT_Website/images/logo5.png" alt="Roofing Solutions & Consulting Logo">
+      <img src="/RoofingSolutions/roofingsolutions/Roofing_Solutions_UT_Website/images/logo5.png" alt="Roofing Solutions & Consulting Logo">
     </div>
     <nav>
       <ul class="main-nav">
         <li><a href="#home">Home</a></li>
+        <li class="dropdown">
+          <a href="#">Residential Roofing</a>
+          <ul class="dropdown-content">
+            <li><a href="#metal-roofs">Metal Roofs</a></li>
+            <li><a href="#shingle-roofs">Shingle Roofs</a></li>
+            <li><a href="#flat-roofs">Flat Roofs</a></li>
+            <li><a href="#roof-replacement">Roof Replacement</a></li>
+            <li><a href="#roofing-consultation">Roofing Consultation</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Commercial Roofing</a>
+          <ul class="dropdown-content">
+            <li><a href="#metal-roofs">Metal Roofs</a></li>
+            <li><a href="#shingle-roofs">Shingle Roofs</a></li>
+            <li><a href="#flat-roofs">Flat Roofs</a></li>
+            <li><a href="#roof-replacement">Roof Replacement</a></li>
+            <li><a href="#roofing-consultation">Roofing Consultation</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Snow Services</a>
+          <ul class="dropdown-content">
+            <li><a href="#snow-removal">Snow Removal</a></li>
+            <li><a href="#snow-melting-systems">Snow Melting Systems</a></li>
+          </ul>
+        </li>  
         <li class="dropdown">
           <a href="#">About Us</a>
           <ul class="dropdown-content">
@@ -25,47 +52,10 @@
             <li><a href="#contact-us">Contact Us</a></li>
             <li><a href="#service-areas">Service Areas</a></li>
             <li><a href="#faqs">FAQs</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
           </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#">Services</a>
-          <ul class="dropdown-content">
-            <li class="dropdown">
-              <a href="#">Residential Roofing</a>
-              <ul class="secondary-dropdown">
-                <li><a href="#metal-roofs">Metal Roofs</a></li>
-                <li><a href="#shingle-roofs">Shingle Roofs</a></li>
-                <li><a href="#flat-roofs">Flat Roofs</a></li>
-                <li><a href="#roof-replacement">Roof Replacement</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#">Commercial Roofing</a>
-              <ul class="secondary-dropdown">
-                <li><a href="#metal-roofs">Metal Roofs</a></li>
-                <li><a href="#shingle-roofs">Shingle Roofs</a></li>
-                <li><a href="#flat-roofs">Flat Roofs</a></li>
-                <li><a href="#roof-replacement">Roof Replacement</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#">Snow Services</a>
-              <ul class="secondary-dropdown">
-                <li><a href="#snow-removal">Snow Removal</a></li>
-                <li><a href="#snow-melting-systems">Snow Melting Systems</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#">Consulting</a>
-              <ul class="secondary-dropdown">
-                <li><a href="#roofing-consultation">Roofing Consultation</a></li>
-                <li><a href="#snow-removal-consultation">Snow Removal Consultation</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
+        </li>              
         <li><a href="#blog">Blog</a></li>
         <li><a href="#contact-us" class="cta-btn">Request a Quote</a></li>
       </ul>
@@ -93,26 +83,79 @@
   <section id="services" class="services-overview">
     <h2>Explore Our Roofing & Snow Removal Services</h2>
     <p>Whether you need a new roof, roof replacement, or expert snow removal, we have the solution for you. Explore our range of services below to see how we can help protect your home or business.</p>
-    <div class="services-list">
-      <div class="service-card" id="residential-roofing">
-        <h3>Residential Roofing</h3>
-        <p>Metal, Shingle, and Flat Roofs for your home.</p>
-        <button class="cta-btn">Learn More</button>
+    <div class="wrapper">
+
+      <div class="single-card">
+        <div class="img-area">
+          <img src="/RoofingSolutions/roofingsolutions/Roofing_Solutions_UT_Website/images/residential_card.png" alt="Residential Roofing">
+          <div class="overlay">
+            <button class="view-details">View Details</button>
+          </div>
+        </div>
+
+        <div class="info">
+          <h3>Residential Roofing</h3>
+          <p>Metal, Shingle, and Flat Roofs for your home.</p>
+        </div>
       </div>
-      <div class="service-card" id="commercial-roofing">
-        <h3>Commercial Roofing</h3>
-        <p>Durable roofs for businesses and commercial buildings.</p>
+
+      <div class="single-card">
+        <div class="img-area">
+          <img src="/RoofingSolutions/roofingsolutions/Roofing_Solutions_UT_Website/images/commercial_card.png" alt="Commercial Roofing">
+          <div class="overlay">
+            <button class="view-details">View Details</button>
+          </div>
+        </div>
+
+        <div class="info">
+          <h3>Commercial Roofing</h3>
+          <p>Durable roofs for businesses and commercial buildings.</p>
+        </div>
       </div>
-      <div class="service-card" id="snow-removal">
-        <h3>Snow Removal</h3>
-        <p>Efficient snow and ice removal for safety.</p>
-      </div>
-      <div class="service-card" id="consulting">
-        <h3>Consulting</h3>
-        <p>Expert guidance for your roofing and snow removal needs.</p>
-      </div>
+
+       <div class="single-card">
+        <div class="img-area">
+          <img src="/RoofingSolutions/roofingsolutions/Roofing_Solutions_UT_Website/images/snow_card.png" alt="Snow Removal">
+          <div class="overlay">
+            <button class="view-details">View Details</button>
+          </div>
+        </div>
+
+        <div class="info">
+          <h3>Snow Removal</h3>
+          <p>Efficient snow and ice removal for safety.</p>
+        </div>
+      </div>     
+
+       <div class="single-card">
+        <div class="img-area">
+          <img src="/RoofingSolutions/roofingsolutions/Roofing_Solutions_UT_Website/images/snow_melt_card.png" alt="Snow Melting Systems">
+          <div class="overlay">
+            <button class="view-details">View Details</button>
+          </div>
+        </div>
+
+        <div class="info">
+          <h3>Melting Systems</h3>
+          <p>Professional installation of snow melting systems.</p>
+        </div>
+      </div>  
+      
+       <div class="single-card">
+        <div class="img-area">
+          <img src="/RoofingSolutions/roofingsolutions/Roofing_Solutions_UT_Website/images/consulting_card.png" alt="Consultation">
+          <div class="overlay">
+            <button class="view-details">View Details</button>
+          </div>
+        </div>
+
+        <div class="info">
+          <h3>Consulting</h3>
+          <p>Expert guidance for your roofing and snow removal needs.</p>
+        </div>
+      </div>        
+
     </div>
-    <button class="cta-btn">Request Your Free Quote Today!</button>
   </section>
 
   <!-- Portfolio Section -->
@@ -151,6 +194,6 @@
   </footer>
 
   <!-- JavaScript -->
-  <script src="/Roofing_Solutions_UT_Website/JS/scripts.js"></script>
+  <script src="/RoofingSolutions/roofingsolutions/Roofing_Solutions_UT_Website/JS/scripts.js"></script>
 </body>
 </html>
