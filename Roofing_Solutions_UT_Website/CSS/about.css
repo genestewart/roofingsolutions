@@ -1,7 +1,7 @@
 /* About Us Section Styles */
 .about-us {
   padding: 60px 20px;
-  background-color: var(--accent); /* Light Steel Blue background for this section */
+  background-color: var(--background); /* Light Steel Blue background for this section */
   text-align: center;
 }
 
@@ -130,7 +130,7 @@
 /* Service Areas Section Styles */
 .service-areas {
   padding: 60px 20px;
-  background-color: var(--accent); /* Light Steel Blue background for this section */
+  background-color: var(--background); /* Light Steel Blue background for this section */
   text-align: center;
 }
 
@@ -174,7 +174,7 @@
 /* FAQs Section Styles */
 .faqs {
   padding: 60px 20px;
-  background-color: var(--accent); /* Light Steel Blue background for this section */
+  background-color: var(--background); /* Light Steel Blue background for this section */
   text-align: center;
 }
 
