@@ -1,7 +1,7 @@
 /* Metal Roofs Section Styles */
 .metal-roofs {
   padding: 60px 20px;
-  background-color: var(--accent); /* Light Steel Blue background for this section */
+  background-color: var(--background);
   text-align: center;
 }
 
@@ -128,7 +128,7 @@
 /* Flat Roofs Section Styles */
 .flat-roofs {
   padding: 60px 20px;
-  background-color: var(--accent); /* Light Steel Blue background for this section */
+  background-color: var(--background);
   text-align: center;
 }
 

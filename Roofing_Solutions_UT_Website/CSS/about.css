@@ -236,12 +236,35 @@
 
 /* Portfolio Section Styles */
 .portfolio {
+  min-height: 75vh;
   padding: 60px 20px;
-  background-color: var(--accent); /* Light Steel Blue background for this section */
+  background-color: var(--accent);
   text-align: center;
 }
 
-.portfolio .content {
+#project-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: var(--primary);
+  margin-bottom: 30px;
+}
+
+.portfolio p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: var(--text);
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/*.portfolio .content {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -250,14 +273,14 @@
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: bold;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary);
   margin-bottom: 30px;
 }
 
 .portfolio p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: var(--text); /* Slate Gray */
+  color: var(--text);
   line-height: 1.6;
   margin-bottom: 50px;
 }
@@ -269,7 +292,7 @@
 .project-category h2 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary);
   margin-bottom: 20px;
 }
 
@@ -294,7 +317,7 @@
 }
 
 .portfolio .cta-btn {
-  background-color: var(--primary); /* Deep Ocean Blue */
+  background-color: var(--primary);
   color: var(--background);
   padding: 15px 30px;
   border-radius: 25px;
@@ -307,8 +330,8 @@
 }
 
 .portfolio .cta-btn:hover {
-  background-color: var(--secondary); /* Sky Blue */
-}
+  background-color: var(--secondary);
+} */
 
 /* Testimonials Section Styles */
 .testimonials {

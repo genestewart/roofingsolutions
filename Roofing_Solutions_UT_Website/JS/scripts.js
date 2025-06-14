@@ -32,3 +32,30 @@ if (form) {
     }
   });
 }
+
+const apiEndpoint = 'https://your-ghost-instance.com/api/v1/';
+const projectsUrl = `${apiEndpoint}projects`;
+
+fetch(projectsUrl)
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error(error));
+
+// Fetching Projects from Ghost API
+fetch('https://your-ghost-instance.com/api/v1/projects')
+  .then(response => response.json())
+  .then(data => {
+    const projects = data.projects;
+    const projectList = document.getElementById('project-list');
+    projects.forEach(project => {
+      const listItem = document.createElement('LI');
+      listItem.innerHTML = `
+        <h2>${project.title}</h2>
+        <p>${project.description}</p>
+        <img src="${project.image}" alt="">
+        <button class="view-btn">View Details</button>
+      `;
+      projectList.appendChild(listItem);
+    });
+  })
+  .catch(error => console.error(error));

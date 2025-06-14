@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="High-Quality Roofing & Snow Removal Services in Park City, Salt Lake City, and Beyond. Residential & Commercial Roofing.">
+  <title>Roofing Solutions & Consulting</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="stylesheet" href="CSS/portfolio.css">
+</head>
+<body>
+
+  <!-- Header (Navigation Bar) -->
+  <header>
+    <div class="logo">
+      <img src="images/logo-white.png" alt="Roofing Solutions & Consulting Logo">
+    </div>
+    <nav>
+      <ul class="main-nav">
+        <li><a href="index.html#home">Home</a></li>
+        <li class="dropdown">
+          <a href="residential.html">Residential Roofing</a>
+          <ul class="dropdown-content">
+            <li><a href="residential.html#metal-roofs">Metal Roofs</a></li>
+            <li><a href="residential.html#shingle-roofs">Shingle Roofs</a></li>
+            <li><a href="residential.html#flat-roofs">Flat Roofs</a></li>
+            <li><a href="residential.html#roof-replacement">Roof Replacement</a></li>
+            <li><a href="residential.html#roofing-consultation">Roofing Consultation</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="commercial.html">Commercial Roofing</a>
+          <ul class="dropdown-content">
+            <li><a href="commercial.html#metal-roofs">Metal Roofs</a></li>
+            <li><a href="commercial.html#shingle-roofs">Shingle Roofs</a></li>
+            <li><a href="commercial.html#flat-roofs">Flat Roofs</a></li>
+            <li><a href="commercial.html#roof-replacement">Roof Replacement</a></li>
+            <li><a href="commercial.html#roofing-consultation">Roofing Consultation</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="snow.html">Snow Services</a>
+          <ul class="dropdown-content">
+            <li><a href="snow.html#snow-removal">Snow Removal</a></li>
+            <li><a href="snow.html#snow-melting-systems">Snow Melting Systems</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="about.html">About Us</a>
+          <ul class="dropdown-content">
+            <li><a href="about.html#about-us">About Us</a></li>
+            <li><a href="about.html#contact-us">Contact Us</a></li>
+            <li><a href="about.html#service-areas">Service Areas</a></li>
+            <li><a href="about.html#faqs">FAQs</a></li>
+            <li><a href="about.html#portfolio">Portfolio</a></li>
+            <li><a href="about.html#testimonials">Testimonials</a></li>
+          </ul>
+        </li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html#contact-us" class="cta-btn">Request a Quote</a></li>
+      </ul>
+    </nav>
+ </header>
+
+<!-- Portfolio Section -->
+<section id="portfolio">
+  <div class="content">
+    <h1>Project Management System</h1>
+    <p>We take pride in our work. Explore our project management system to see the progress of ongoing projects and completed ones.</p>
+
+    <!-- Project List -->
+    <ul id="project-list"></ul>
+
+    <!-- Filters -->
+    <div class="filters">
+      <button class="filter-btn cta-btn" data-filter="all">All</button>
+      <button class="filter-btn cta-btn" data-filter="in-progress">In Progress</button>
+      <button class="filter-btn cta-btn" data-filter="completed">Completed</button>
+    </div>
+
+    <!-- Modal for Project Details -->
+    <div id="project-modal" class="modal">
+      <div class="modal-content">
+        <h2 id="project-title"></h2>
+        <p id="project-description"></p>
+        <img id="project-image" src="" alt="">
+      </div>
+      <button class="close-btn cta-btn">Close</button>
+    </div>
+  </div>
+</section>
+
+ <!-- Footer Section -->
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact-us">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="contact-info">
+      <p>Phone: (123) 456-7890 | Email: info@roofingsolutions.com</p>
+    </div>
+    <div class="social-media">
+      <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">LinkedIn</a>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="JS/scripts.js"></script>
+</body>
+</html>

@@ -130,6 +130,14 @@ header nav ul li.dropdown:hover .dropdown-content {
   background-color: var(--primary);
 }
 
+.link {
+  text-decoration: none;
+}
+
+.link:visited {
+  color: var(--text-white);
+}
+
 /* Footer */
 footer {
   padding: 40px 20px;

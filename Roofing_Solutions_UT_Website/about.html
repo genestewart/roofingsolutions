@@ -117,59 +117,33 @@
       <button class="cta-btn">See All Service Areas</button>
     </div>
   </section>
-
-    <!-- Portfolio Section -->
+  <!-- Portfolio Section -->
   <section id="portfolio" class="portfolio">
     <div class="content">
-      <h1>View Our Recent Projects</h1>
-      <p>We take pride in the work we do. Explore our portfolio to see the high-quality roofing installations and snow services we've provided to clients just like you.</p>
+      <h1>Project Management System</h1>
+      <p>We take pride in the work we do. Explore our portfolio to see the high-quality services we've providing or have provided to clients just like you.</p>
 
-      <!-- Residential Projects -->
-      <div class="project-category">
-        <h2>Residential Projects</h2>
-        <div class="gallery">
-          <img src="/images/shingles-home.png" alt="Residential Project 1">
-          <img src="/images/res-metal-portfolio.png" alt="Residential Project 2">
-          <img src="/images/residential_card.png" alt="Residential Project 3">
-          <img src="/images/flat-roof.png" alt="Residential Project 4">
-        </div>
+      <!-- Project List -->
+      <ul id="project-list"></ul>
+
+      <!-- Filters -->
+      <div class="filters">
+        <button class="filter-btn cta-btn" data-filter="all">All</button>
+        <button class="filter-btn cta-btn" data-filter="in-progress">In Progress</button>
+        <button class="filter-btn cta-btn" data-filter="completed">Completed</button>
       </div>
 
-      <!-- Commercial Projects -->
-      <div class="project-category">
-        <h2>Commercial Projects</h2>
-        <div class="gallery">
-          <img src="/images/com-metal-portfolio.png" alt="Commercial Project 1">
-          <img src="/images/school-metal.png" alt="Commercial Project 2">
-          <img src="/images/commercial_card.png" alt="Commercial Project 3">
-          <img src="/images/flat-roof.png" alt="Commercial Project 4">
+      <!-- Modal for Project Details -->
+      <div id="project-modal" class="modal">
+        <div class="modal-content">
+          <h2 id="project-title"></h2>
+          <p id="project-description"></p>
+          <img id="project-image" src="" alt="">
         </div>
-      </div>
-
-      <!-- Snow Removal Projects -->
-      <div class="project-category">
-        <h2>Snow Removal Projects</h2>
-        <div class="gallery">
-          <img src="/images/4wheeler-snow.png" alt="Snow Removal Project 1">
-          <img src="/images/shovel-snow.png" alt="Snow Removal Project 2">
-          <img src="/images/snow_card.png" alt="Snow Removal Project 3">
-          <img src="/images/skid-snow.png" alt="Snow Removal Project 4">
-        </div>
-      </div>
-
-      <!-- Snow Melting System Projects -->
-      <div class="project-category">
-        <h2>Snow Melting System Projects</h2>
-        <div class="gallery">
-          <img src="/images/melt-portfolio.png" alt="Snow Melting System Project 1">
-          <img src="/images/Snow_Melt.png" alt="Snow Melting System Project 2">
-          <img src="/images/snow_melt_card.png" alt="Snow Melting System Project 3">
-          <img src="/images/melt-roof.png" alt="Snow Melting System Project 4">
-        </div>
+        <button class="close-btn cta-btn">Close</button>
       </div>
     </div>
   </section>
-
 
   <!-- Testimonials Section -->
   <section id="testimonials" class="testimonials">
