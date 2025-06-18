@@ -1,6 +1,7 @@
 /* Commercial Roofing Section Styles */
 .commercial-roofing {
   padding: 60px 20px;
+  width: 100%;
   background-color: var(--background);
   text-align: center;
 }
@@ -60,9 +61,279 @@
   background-color: var(--secondary); /* Sky Blue */
 }
 
+/* Metal Roofs Section Styles */
+.metal-roofs {
+  padding: 60px 20px;
+  background: url('/images/commercial/commercial-metal-roof-brick-50.png') no-repeat center center/cover;
+  text-align: center;
+}
+
+.metal-roofs .content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.metal-roofs h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: var(--primary);
+  margin-bottom: 30px;
+}
+
+.metal-roofs p, .metal-roofs ul, .metal-roofs ol {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: var(--text-black); 
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.metal-roofs h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+
+.metal-roofs ul, .metal-roofs ol {
+  text-align: left;
+  list-style-position: inside;
+  margin-left: 20px;
+}
+
+.metal-roofs ul li, .metal-roofs ol li {
+  margin-bottom: 10px;
+}
+
+.metal-roofs button.cta-btn {
+  background-color: var(--primary); /* Deep Ocean Blue */
+  color: var(--background);
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+  margin-top: 30px;
+}
+
+.metal-roofs button.cta-btn:hover {
+  background-color: var(--secondary); /* Sky Blue */
+}
+
+/* Shingle Roofs Section Styles */
+.shingle-roofs {
+  padding: 60px 20px;
+  background-color: var(--background); /* Light Steel Blue background for this section */
+  text-align: center;
+}
+
+.shingle-roofs .content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.shingle-roofs h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: var(--primary); /* Deep Ocean Blue */
+  margin-bottom: 30px;
+}
+
+.shingle-roofs p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: var(--text); /* Slate Gray */
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.shingle-roofs h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: var(--primary); /* Deep Ocean Blue */
+  margin-bottom: 20px;
+}
+
+.shingle-roofs ul {
+  text-align: left;
+  list-style-position: inside;
+  margin-left: 20px;
+}
+
+.shingle-roofs ul li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: var(--text); /* Slate Gray */
+  margin-bottom: 15px;
+}
+
+.shingle-roofs button.cta-btn {
+  background-color: var(--primary); /* Deep Ocean Blue */
+  color: var(--background);
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+  margin-top: 30px;
+}
+
+.shingle-roofs button.cta-btn:hover {
+  background-color: var(--secondary); /* Sky Blue */
+}
+
+/* Flat Roofs Section Styles */
+.flat-roofs {
+  padding: 60px 20px;
+  background: url('/images/commercial/commercial-flat-roof-repair-50.png') no-repeat center center/cover;
+  text-align: center;
+}
+
+.flat-roofs .content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flat-roofs h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: var(--primary);
+  margin-bottom: 30px;
+}
+
+.flat-roofs p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: var(--text-black);
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.flat-roofs h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+
+.flat-roofs ul {
+  text-align: left;
+  list-style-position: inside;
+  margin-left: 20px;
+}
+
+.flat-roofs ul li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: var(--text-black); 
+  margin-bottom: 15px;
+}
+
+.flat-roofs ol {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.flat-roofs ol li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: var(--text-black); 
+  margin-bottom: 15px;
+}
+
+.flat-roofs button.cta-btn {
+  background-color: var(--primary); /* Deep Ocean Blue */
+  color: var(--background);
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+  margin-top: 30px;
+}
+
+.flat-roofs button.cta-btn:hover {
+  background-color: var(--secondary); /* Sky Blue */
+}
+
+/* Roof Replacement Section Styles */
+.roof-replacement {
+  padding: 60px 20px;
+  background-color: var(--background); /* Light Steel Blue background for this section */
+  text-align: center;
+}
+
+.roof-replacement .content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.roof-replacement h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: var(--primary); /* Deep Ocean Blue */
+  margin-bottom: 30px;
+}
+
+.roof-replacement p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: var(--text); /* Slate Gray */
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.roof-replacement h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: var(--primary); /* Deep Ocean Blue */
+  margin-bottom: 20px;
+}
+
+.roof-replacement ul, .roof-replacement ol {
+  text-align: left;
+  list-style-position: inside;
+  margin-left: 20px;
+}
+
+.roof-replacement ul li, .roof-replacement ol li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: var(--text); /* Slate Gray */
+  margin-bottom: 15px;
+}
+
+.roof-replacement button.cta-btn {
+  background-color: var(--primary); /* Deep Ocean Blue */
+  color: var(--background);
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+  margin-top: 30px;
+}
+
+.roof-replacement button.cta-btn:hover {
+  background-color: var(--secondary); /* Sky Blue */
+}
+
 /* Consulting Section Styles */
 .consulting {
   padding: 60px 20px;
+  width: 100%;
   background-color: var(--accent); /* Light Steel Blue background for this section */
   text-align: center;
 }

@@ -1,6 +1,6 @@
 /* Hero Section */
 .hero {
-  background: url('../images/hero.png') no-repeat center center/cover;
+  background: url('/images/hero.png') no-repeat center center/cover;
   height: 75vh;
   color: var(--background);
   text-shadow: black 0.1em 0.1em 0.2em;
@@ -45,28 +45,89 @@
 /* Why Choose Us */
 .why-choose-us {
   height: 75vh;
-  padding: 100px 100px;
-  background-color: var(--accent);
-  text-align: center;
+  padding: 100px;
+  background-color: var(--background);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
 .why-choose-us h2 {
   font-family: 'Playfair Display', serif;
   font-size: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 .why-choose-us p {
   font-size: 25px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
+
+.why-choose-us .text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Align to the left */
+  max-width: 50%; 
+}
+
+.contact-us {
+  display: flex;
+  background-color: var(--accent);
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  width: 35%;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+}
+.contact-us form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+}
+
+.contact-us .form-group {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.contact-us .form-group input, 
+.contact-us .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-us .form-group textarea {
+  resize: vertical;
+}
+
+.contact-us button.cta-btn {
+  background-color: var(--primary); /* Deep Ocean Blue */
+  color: var(--background);
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-us button.cta-btn:hover {
+  background-color: var(--secondary); /* Sky Blue */
+}
+
 
 /* Services Overview */
 .services-overview {
+  background: url('/images/residential/residential-shingle-roof-suburban-homes-50.png') no-repeat center center/cover;
   height: auto;
   padding: 60px 20px;
   display: flex;
@@ -122,10 +183,6 @@
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
-}
-
-.img-area:hover img {
-  transform: scale(1.1);
 }
 
 .overlay {
@@ -208,7 +265,6 @@
 
 /* Testimonials */
 .testimonials {
-  height: 50vh;
   padding: 60px 20px;
   text-align: center;
   display: flex;
@@ -227,3 +283,61 @@
   font-size: 18px;
   margin-bottom: 40px;
 }
+
+.testimonial-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 40px;
+}
+
+.testimonial {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 30%; /* Ensures 3 cards side by side */
+  text-align: left;
+}
+
+.testimonial p {
+  font-size: 16px;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+}
+
+.testimonial .stars {
+  color: #ffb400; /* Star color */
+  font-size: 18px;
+}
+
+.testimonial strong {
+  font-weight: bold;
+  color: #003b75;
+}
+
+/* Optional: Styling for the CTA button */
+.cta-btn {
+  background-color: #003b75;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  margin-top: 30px;
+}
+
+.cta-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.cta-btn:hover {
+  background-color: #00b4f1;
+}
+

@@ -69,15 +69,40 @@
       <h1>Your Trusted Roofing & Snow Removal Experts</h1>
       <p>High-Quality Metal, Shingle, and Flat Roofs for Residential & Commercial Properties. Professional Snow Removal and Melting Systems. Serving Park City, Salt Lake City, and Beyond.</p>
       <button class="cta-btn"><a href="about.html#contact-us" class="link"></a>Get a Free Estimate</button>
-      <button class="secondary-btn"><a href="about.html#contact-us" class="link"></a>Request a Consultation</button>
     </div>
   </section>
 
   <!-- Why Choose Us Section -->
   <section id="about-us" class="why-choose-us">
-    <h2>Why Roofing Solutions and Consulting?</h2>
-    <p>With over 20 years of experience in roofing and snow services, we offer top-tier craftsmanship, durable materials, and unbeatable customer service. From residential homes to commercial buildings, we provide comprehensive roofing solutions tailored to your needs. Our snow removal and melting systems ensure your roof is safe all year long.</p>
-    <button class="cta-btn"><a href="about.html" class="link"></a>Learn More About Our Services</button>
+    <div class="text-content">
+      <h2>Why Roofing Solutions and Consulting?</h2>
+      <p>With over 20 years of experience in roofing and snow services, we offer top-tier craftsmanship, durable materials, and unbeatable customer service. From residential homes to commercial buildings, we provide comprehensive roofing solutions tailored to your needs. Our snow removal and melting systems ensure your roof is safe all year long.</p>
+      <button class="cta-btn"><a href="about.html" class="link"></a>Learn More About Our Services</button>
+    </div>
+        <!-- Contact Form -->
+    <div class="contact-us">
+      <h2>Contact Us</h2>
+      <form action="submit_form.php" method="POST">
+
+        <div class="form-group">
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+
+        <div class="form-group">
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+
+        <div class="form-group">
+          <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+        </div>
+
+        <div class="form-group">
+          <textarea id="message" name="message" rows="5" placeholder="Tell us about your project."></textarea>
+        </div>
+
+        <button type="submit" class="cta-btn">Submit Your Inquiry</button>
+      </form>
+    </div>
   </section>
 
   <!-- Services Overview Section -->
@@ -90,7 +115,7 @@
         <div class="img-area">
           <img src="images/residential_card.png" alt="Residential Roofing">
           <div class="overlay">
-            <button class="cta-btn"><a href="index.html#home" class="link"></a>View Details</button>
+            <button class="cta-btn"><a href="residential.html" class="link"></a>View Details</button>
           </div>
         </div>
 
@@ -119,7 +144,7 @@
           <img src="images/snow_card.png" alt="Snow Removal">
           <div class="overlay">
             <button class="cta-btn">
-              <a href="snow.html#snow-removal" class="link"></a>View Details</button>
+              <a href="snow.html" class="link"></a>View Details</button>
           </div>
         </div>
 
@@ -157,22 +182,52 @@
 
   <!-- Testimonials Section -->
   <section id="testimonials" class="testimonials">
-    <h2>What Our Clients Say</h2>
-    <p>Read the experiences of our satisfied clients and see why Roofing Solutions and Consulting is the preferred choice for roofing and snow removal services.</p>
-    <button class="cta-btn"><a href="about.html#testimonials" class="link"></a>Read Our Reviews</button>
-  </section>
+  <h2>What Our Clients Say</h2>
+  <p>Read the experiences of our satisfied clients and see why Roofing Solutions and Consulting is the preferred choice for roofing and snow removal services.</p>
+
+  <div class="testimonial-cards">
+    <!-- Testimonial 1 -->
+    <div class="testimonial">
+      <p>"We couldn't be happier with the new roof installed by Roofing Solutions and Consulting! They worked quickly and professionally, and the quality of the metal roofing is outstanding. Our home is now more energy-efficient and looks amazing!"</p>
+      <p><strong>- Sarah Williams</strong><br>Park City, UT<br>Residential Metal Roof Installation</p>
+      <div class="stars">
+        &#9733;&#9733;&#9733;&#9733;&#9733; <!-- 5 stars -->
+      </div>
+    </div>
+
+    <!-- Testimonial 2 -->
+    <div class="testimonial">
+      <p>"Roofing Solutions and Consulting provided us with exceptional service. They did a fantastic job replacing our commercial roof. The process was seamless, and they minimized any disruption to our business operations. Highly recommend!"</p>
+      <p><strong>- John Davis</strong><br>Salt Lake City, UT<br>Commercial Roof Replacement</p>
+      <div class="stars">
+        &#9733;&#9733;&#9733;&#9733;&#9733; <!-- 5 stars -->
+      </div>
+    </div>
+
+    <!-- Testimonial 3 -->
+    <div class="testimonial">
+      <p>"The snow removal services were exactly what we needed during this harsh winter. Our property was cleared in no time, and we had no issues with ice buildup on the roof. Excellent service and very reliable!"</p>
+      <p><strong>- Lisa Green</strong><br>Heber City, UT<br>Snow Removal Services</p>
+      <div class="stars">
+        &#9733;&#9733;&#9733;&#9733;&#9733; <!-- 5 stars -->
+      </div>
+    </div>
+  </div>
+
+  <button class="cta-btn"><a href="about.html#testimonials" class="link">Read Our Reviews</a></button>
+</section>
 
   <!-- Footer Section -->
   <footer>
     <nav>
       <ul>
         <li><a href="#home">Home</a></li>
-        <li><a href="#about-us">About Us</a></li>
+        <li><a href="about.html">About Us</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#contact-us">Contact Us</a></li>
+        <li><a href="about.html#portfolio">Portfolio</a></li>
+        <li><a href="about.html#testimonials">Testimonials</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="#about-us">Contact Us</a></li>
       </ul>
     </nav>
     <div class="contact-info">
