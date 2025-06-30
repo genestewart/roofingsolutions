@@ -41,6 +41,17 @@ fetch(projectsUrl)
   .then(data => console.log(data))
   .catch(error => console.error(error));
 
+// Redirect quote buttons to the Contact Us section
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.quote-btn').forEach(button => {
+    if (button.type !== 'submit') {
+      button.addEventListener('click', () => {
+        window.location.href = 'about.html#contact-us';
+      });
+    }
+  });
+});
+
 // Fetching Projects from Ghost API
 fetch('https://your-ghost-instance.com/api/v1/projects')
   .then(response => response.json())
