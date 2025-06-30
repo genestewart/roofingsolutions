@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="High-Quality Roofing & Snow Removal Services in Park City, Salt Lake City, and Beyond. Residential & Commercial Roofing.">
+  <title>Roofing Solutions & Consulting</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="stylesheet" href="CSS/index.css">
+</head>
+<body>
+
+  <!-- Header (Navigation Bar) -->
+  <header>
+    <div class="logo">
+      <img src="images/logo-white.png" alt="Roofing Solutions & Consulting Logo">
+    </div>
+    <nav>
+      <ul class="main-nav">
+        <li><a href="index.html#home">Home</a></li>
+        <li class="dropdown">
+          <a href="residential.html">Residential Roofing</a>
+          <ul class="dropdown-content">
+            <li><a href="residential.html#metal-roofs">Metal Roofs</a></li>
+            <li><a href="residential.html#shingle-roofs">Shingle Roofs</a></li>
+            <li><a href="residential.html#flat-roofs">Flat Roofs</a></li>
+            <li><a href="residential.html#roof-replacement">Roof Replacement</a></li>
+            <li><a href="residential.html#roofing-consultation">Roofing Consultation</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="commercial.html">Commercial Roofing</a>
+          <ul class="dropdown-content">
+            <li><a href="commercial.html#metal-roofs">Metal Roofs</a></li>
+            <li><a href="commercial.html#shingle-roofs">Shingle Roofs</a></li>
+            <li><a href="commercial.html#flat-roofs">Flat Roofs</a></li>
+            <li><a href="commercial.html#roof-replacement">Roof Replacement</a></li>
+            <li><a href="commercial.html#roofing-consultation">Roofing Consultation</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="snow.html">Snow Services</a>
+          <ul class="dropdown-content">
+            <li><a href="snow.html#snow-removal">Snow Removal</a></li>
+            <li><a href="snow.html#snow-melting-systems">Snow Melting Systems</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="about.html">About Us</a>
+          <ul class="dropdown-content">
+            <li><a href="about.html#about-us">About Us</a></li>
+            <li><a href="about.html#contact-us">Contact Us</a></li>
+            <li><a href="about.html#service-areas">Service Areas</a></li>
+            <li><a href="about.html#faqs">FAQs</a></li>
+            <li><a href="about.html#portfolio">Portfolio</a></li>
+            <li><a href="about.html#testimonials">Testimonials</a></li>
+          </ul>
+        </li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html#contact-us" class="cta-btn">Request a Quote</a></li>
+      </ul>
+    </nav>
+ </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Your Trusted Roofing & Snow Removal Experts</h1>
+      <p>High-Quality Metal, Shingle, and Flat Roofs for Residential & Commercial Properties. Professional Snow Removal and Melting Systems. Serving Park City, Salt Lake City, and Beyond.</p>
+      <button class="cta-btn"><a href="about.html#contact-us" class="link"></a>Get a Free Estimate</button>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section id="about-us" class="why-choose-us">
+    <div class="text-content">
+      <h2>Why Roofing Solutions and Consulting?</h2>
+      <p>With over 20 years of experience in roofing and snow services, we offer top-tier craftsmanship, durable materials, and unbeatable customer service. From residential homes to commercial buildings, we provide comprehensive roofing solutions tailored to your needs. Our snow removal and melting systems ensure your roof is safe all year long.</p>
+      <button class="cta-btn"><a href="about.html" class="link"></a>Learn More About Our Services</button>
+    </div>
+        <!-- Contact Form -->
+    <div class="contact-us">
+      <h2>Contact Us</h2>
+      <form action="submit_form.php" method="POST">
+
+        <div class="form-group">
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+
+        <div class="form-group">
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+
+        <div class="form-group">
+          <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+        </div>
+
+        <div class="form-group">
+          <textarea id="message" name="message" rows="5" placeholder="Tell us about your project."></textarea>
+        </div>
+
+        <button type="submit" class="cta-btn">Submit Your Inquiry</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Services Overview Section -->
+  <section id="services" class="services-overview">
+    <h2>Explore Our Roofing & Snow Removal Services</h2>
+    <p>Whether you need a new roof, roof replacement, or expert snow removal, we have the solution for you. Explore our range of services below to see how we can help protect your home or business.</p>
+    <div class="wrapper">
+
+      <div class="single-card">
+        <div class="img-area">
+          <img src="images/residential_card.png" alt="Residential Roofing">
+          <div class="overlay">
+            <button class="cta-btn"><a href="residential.html" class="link"></a>View Details</button>
+          </div>
+        </div>
+
+        <div class="info">
+          <h3>Residential Roofing</h3>
+          <p>Metal, Shingle, and Flat Roofs for your home.</p>
+        </div>
+      </div>
+
+      <div class="single-card">
+        <div class="img-area">
+          <img src="images/commercial_card.png" alt="Commercial Roofing">
+          <div class="overlay">
+            <button class="cta-btn"><a href="commercial.html" class="link"></a>View Details</button>
+          </div>
+        </div>
+
+        <div class="info">
+          <h3>Commercial Roofing</h3>
+          <p>Durable roofs for businesses and commercial buildings.</p>
+        </div>
+      </div>
+
+       <div class="single-card">
+        <div class="img-area">
+          <img src="images/snow_card.png" alt="Snow Removal">
+          <div class="overlay">
+            <button class="cta-btn">
+              <a href="snow.html" class="link"></a>View Details</button>
+          </div>
+        </div>
+
+        <div class="info">
+          <h3>Snow Removal</h3>
+          <p>Efficient snow and ice removal for safety.</p>
+        </div>
+      </div>     
+
+       <div class="single-card">
+        <div class="img-area">
+          <img src="images/snow_melt_card.png" alt="Snow Melting Systems">
+          <div class="overlay">
+            <button class="cta-btn"><a href="snow.html#snow-melting-systems" class="link"></a>View Details</button>
+          </div>
+        </div>
+
+        <div class="info">
+          <h3>Melting Systems</h3>
+          <p>Professional installation of snow melting systems.</p>
+        </div>
+      </div>         
+
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <h2>Our Recent Projects</h2>
+    <p>We take pride in our work. View some of our most recent projects and see why we're the trusted roofing and snow removal experts in Park City and beyond.</p>
+    <button class="cta-btn">
+      <a href="about.html#portfolio" class="link">See Our Portfolio</a>
+    </button>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+  <h2>What Our Clients Say</h2>
+  <p>Read the experiences of our satisfied clients and see why Roofing Solutions and Consulting is the preferred choice for roofing and snow removal services.</p>
+
+  <div class="testimonial-cards">
+    <!-- Testimonial 1 -->
+    <div class="testimonial">
+      <p>"We couldn't be happier with the new roof installed by Roofing Solutions and Consulting! They worked quickly and professionally, and the quality of the metal roofing is outstanding. Our home is now more energy-efficient and looks amazing!"</p>
+      <p><strong>- Sarah Williams</strong><br>Park City, UT<br>Residential Metal Roof Installation</p>
+      <div class="stars">
+        &#9733;&#9733;&#9733;&#9733;&#9733; <!-- 5 stars -->
+      </div>
+    </div>
+
+    <!-- Testimonial 2 -->
+    <div class="testimonial">
+      <p>"Roofing Solutions and Consulting provided us with exceptional service. They did a fantastic job replacing our commercial roof. The process was seamless, and they minimized any disruption to our business operations. Highly recommend!"</p>
+      <p><strong>- John Davis</strong><br>Salt Lake City, UT<br>Commercial Roof Replacement</p>
+      <div class="stars">
+        &#9733;&#9733;&#9733;&#9733;&#9733; <!-- 5 stars -->
+      </div>
+    </div>
+
+    <!-- Testimonial 3 -->
+    <div class="testimonial">
+      <p>"The snow removal services were exactly what we needed during this harsh winter. Our property was cleared in no time, and we had no issues with ice buildup on the roof. Excellent service and very reliable!"</p>
+      <p><strong>- Lisa Green</strong><br>Heber City, UT<br>Snow Removal Services</p>
+      <div class="stars">
+        &#9733;&#9733;&#9733;&#9733;&#9733; <!-- 5 stars -->
+      </div>
+    </div>
+  </div>
+
+  <button class="cta-btn"><a href="about.html#testimonials" class="link">Read Our Reviews</a></button>
+</section>
+
+  <!-- Footer Section -->
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="about.html#portfolio">Portfolio</a></li>
+        <li><a href="about.html#testimonials">Testimonials</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="#about-us">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="contact-info">
+      <p>Phone: (123) 456-7890 | Email: info@roofingsolutions.com</p>
+    </div>
+    <div class="social-media">
+      <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">LinkedIn</a>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="JS/scripts.js"></script>
+</body>
+</html>
