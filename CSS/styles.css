@@ -173,3 +173,46 @@ footer .social-media a {
   text-decoration: none;
   margin-right: 10px;
 }
+
+/* Burger Menu */
+.burger-menu {
+  display: none;
+  font-size: 32px;
+  color: var(--text-white);
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.nav-tray {
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .burger-menu {
+    display: block;
+  }
+
+  header nav.nav-tray {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: var(--primary);
+    width: 100%;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  header nav.nav-tray.open {
+    display: flex;
+  }
+
+  header nav.nav-tray ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav.nav-tray ul li {
+    margin: 10px 0;
+  }
+}
