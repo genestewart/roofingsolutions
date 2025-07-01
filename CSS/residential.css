@@ -1,7 +1,7 @@
 /* Metal Roofs Section Styles */
 .metal-roofs {
   padding: 60px 20px;
-  background: url('/images/residential/residential-metal-roof-stone-wood-50.png') no-repeat center center/cover;
+  background: url('../images/residential/residential-metal-roof-stone-wood-50.png') no-repeat center center/cover;
   text-align: center;
 }
 
@@ -128,7 +128,7 @@
 /* Flat Roofs Section Styles */
 .flat-roofs {
   padding: 60px 20px;
-  background: url('/images/residential/residential-flat-roof-tan-50.png') no-repeat center center/cover;
+  background: url('../images/residential/residential-flat-roof-tan-50.png') no-repeat center center/cover;
   text-align: center;
 }
 
