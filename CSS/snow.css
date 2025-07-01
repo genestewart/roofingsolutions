@@ -1,7 +1,7 @@
 /* Snow Services Section Styles */
 .snow-services {
   padding: 60px 20px;
-  background-color: var(--accent); /* Light Steel Blue background for this section */
+  background-color: var(--accent); 
   text-align: center;
 }
 
@@ -14,14 +14,14 @@
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: bold;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary); 
   margin-bottom: 30px;
 }
 
 .snow-services p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: var(--text); /* Slate Gray */
+  color: var(--text); 
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -33,19 +33,19 @@
 .snow-services .service-section h2 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary); 
   margin-bottom: 20px;
 }
 
 .snow-services .service-section p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: var(--text); /* Slate Gray */
+  color: var(--text); 
   margin-bottom: 20px;
 }
 
 .snow-services button.cta-btn {
-  background-color: var(--primary); /* Deep Ocean Blue */
+  background-color: var(--primary); 
   color: var(--background);
   padding: 15px 30px;
   border-radius: 25px;
@@ -57,5 +57,5 @@
 }
 
 .snow-services button.cta-btn:hover {
-  background-color: var(--secondary); /* Sky Blue */
+  background-color: var(--secondary); 
 }

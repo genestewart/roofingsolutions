@@ -1,7 +1,7 @@
 /* Blog Section Styles */
 .blog {
   padding: 60px 20px;
-  background-color: var(--accent); /* Light Steel Blue background for this section */
+  background-color: var(--accent); 
   text-align: center;
 }
 
@@ -14,14 +14,14 @@
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: bold;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary); 
   margin-bottom: 30px;
 }
 
 .blog p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: var(--text); /* Slate Gray */
+  color: var(--text); 
   line-height: 1.6;
   margin-bottom: 50px;
 }
@@ -38,19 +38,19 @@
 .blog-post h2 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary); 
   margin-bottom: 15px;
 }
 
 .blog-post p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: var(--text); /* Slate Gray */
+  color: var(--text); 
   margin-bottom: 20px;
 }
 
 .blog-post a.cta-btn {
-  background-color: var(--primary); /* Deep Ocean Blue */
+  background-color: var(--primary); 
   color: var(--background);
   padding: 12px 30px;
   border-radius: 25px;
@@ -62,5 +62,5 @@
 }
 
 .blog-post a.cta-btn:hover {
-  background-color: var(--secondary); /* Sky Blue */
+  background-color: var(--secondary); 
 }
