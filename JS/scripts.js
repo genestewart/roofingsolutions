@@ -28,7 +28,7 @@ if (form) {
 
     if (!name || !email || !message) {
       alert('Please fill in all fields.');
-      event.preventDefault(); // Prevent form submission
+      event.preventDefault();
     }
   });
 }

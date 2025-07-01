@@ -1,7 +1,7 @@
 /* About Us Section Styles */
 .about-us {
   padding: 60px 20px;
-  background-color: var(--background); /* Light Steel Blue background for this section */
+  background-color: var(--background); 
   text-align: center;
 }
 
@@ -14,14 +14,14 @@
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: bold;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary); 
   margin-bottom: 30px;
 }
 
 .about-us p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: var(--text); /* Slate Gray */
+  color: var(--text); 
   line-height: 1.6;
   margin-bottom: 20px;
 }
@@ -29,12 +29,12 @@
 .about-us h2 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary); 
   margin-bottom: 15px;
 }
 
 .about-us button.cta-btn {
-  background-color: var(--primary); /* Deep Ocean Blue */
+  background-color: var(--primary); 
   color: var(--background);
   padding: 15px 30px;
   border-radius: 25px;
@@ -47,13 +47,13 @@
 }
 
 .about-us button.cta-btn:hover {
-  background-color: var(--secondary); /* Sky Blue */
+  background-color: var(--secondary); 
 }
 
 /* Contact Us Section Styles */
 .contact-us {
   padding: 60px 20px;
-  background-color: var(--accent); /* Light Steel Blue background for this section */
+  background-color: var(--accent); 
   text-align: center;
 }
 
@@ -66,14 +66,14 @@
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: bold;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary); 
   margin-bottom: 30px;
 }
 
 .contact-us p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: var(--text); /* Slate Gray */
+  color: var(--text); 
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -93,7 +93,7 @@
 .contact-us .form-group label {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary); 
   margin-bottom: 5px;
 }
 
@@ -111,7 +111,7 @@
 }
 
 .contact-us button.cta-btn {
-  background-color: var(--primary); /* Deep Ocean Blue */
+  background-color: var(--primary); 
   color: var(--background);
   padding: 15px 30px;
   border-radius: 25px;
@@ -124,13 +124,13 @@
 }
 
 .contact-us button.cta-btn:hover {
-  background-color: var(--secondary); /* Sky Blue */
+  background-color: var(--secondary); 
 }
 
 /* Service Areas Section Styles */
 .service-areas {
   padding: 60px 20px;
-  background-color: var(--background); /* Light Steel Blue background for this section */
+  background-color: var(--background); 
   text-align: center;
 }
 
@@ -143,20 +143,20 @@
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: bold;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary); 
   margin-bottom: 30px;
 }
 
 .service-areas p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: var(--text); /* Slate Gray */
+  color: var(--text); 
   line-height: 1.6;
   margin-bottom: 30px;
 }
 
 .service-areas button.cta-btn {
-  background-color: var(--primary); /* Deep Ocean Blue */
+  background-color: var(--primary); 
   color: var(--background);
   padding: 15px 30px;
   border-radius: 25px;
@@ -168,13 +168,13 @@
 }
 
 .service-areas button.cta-btn:hover {
-  background-color: var(--secondary); /* Sky Blue */
+  background-color: var(--secondary); 
 }
 
 /* FAQs Section Styles */
 .faqs {
   padding: 60px 20px;
-  background-color: var(--background); /* Light Steel Blue background for this section */
+  background-color: var(--background); 
   text-align: center;
 }
 
@@ -187,14 +187,14 @@
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: bold;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary); 
   margin-bottom: 30px;
 }
 
 .faqs p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: var(--text); /* Slate Gray */
+  color: var(--text); 
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -207,18 +207,18 @@
 .faqs .faq-item h2 {
   font-family: 'Playfair Display', serif;
   font-size: 28px;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary); 
   margin-bottom: 10px;
 }
 
 .faqs .faq-item p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: var(--text); /* Slate Gray */
+  color: var(--text); 
 }
 
 .faqs button.cta-btn {
-  background-color: var(--primary); /* Deep Ocean Blue */
+  background-color: var(--primary); 
   color: var(--background);
   padding: 15px 30px;
   border-radius: 25px;
@@ -231,7 +231,7 @@
 }
 
 .faqs button.cta-btn:hover {
-  background-color: var(--secondary); /* Sky Blue */
+  background-color: var(--secondary); 
 }
 
 /* Portfolio Section Styles */
@@ -336,7 +336,7 @@
 /* Testimonials Section Styles */
 .testimonials {
   padding: 60px 20px;
-  background-color: var(--accent); /* Light Steel Blue background for this section */
+  background-color: var(--accent); 
   text-align: center;
 }
 
@@ -349,14 +349,14 @@
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: bold;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary); 
   margin-bottom: 30px;
 }
 
 .testimonials p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: var(--text); /* Slate Gray */
+  color: var(--text); 
   line-height: 1.6;
   margin-bottom: 50px;
 }
@@ -373,14 +373,14 @@
 .testimonial p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: var(--text); /* Slate Gray */
+  color: var(--text); 
   margin-bottom: 15px;
 }
 
 .testimonial strong {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary); 
 }
 
 .testimonial span {
@@ -389,7 +389,7 @@
 }
 
 .testimonials .cta-btn {
-  background-color: var(--primary); /* Deep Ocean Blue */
+  background-color: var(--primary); 
   color: var(--background);
   padding: 15px 30px;
   border-radius: 25px;
@@ -402,5 +402,5 @@
 }
 
 .testimonials .cta-btn:hover {
-  background-color: var(--secondary); /* Sky Blue */
+  background-color: var(--secondary); 
 }

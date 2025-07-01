@@ -22,7 +22,7 @@
 .commercial-roofing p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: var(--text); /* Slate Gray */
+  color: var(--text); 
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -34,19 +34,19 @@
 .commercial-roofing .roof-section h2 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary); 
   margin-bottom: 20px;
 }
 
 .commercial-roofing .roof-section p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: var(--text); /* Slate Gray */
+  color: var(--text); 
   margin-bottom: 20px;
 }
 
 .commercial-roofing button.cta-btn {
-  background-color: var(--primary); /* Deep Ocean Blue */
+  background-color: var(--primary); 
   color: var(--background);
   padding: 15px 30px;
   border-radius: 25px;
@@ -58,7 +58,7 @@
 }
 
 .commercial-roofing button.cta-btn:hover {
-  background-color: var(--secondary); /* Sky Blue */
+  background-color: var(--secondary); 
 }
 
 /* Metal Roofs Section Styles */
@@ -107,7 +107,7 @@
 }
 
 .metal-roofs button.cta-btn {
-  background-color: var(--primary); /* Deep Ocean Blue */
+  background-color: var(--primary); 
   color: var(--background);
   padding: 15px 30px;
   border-radius: 25px;
@@ -120,13 +120,13 @@
 }
 
 .metal-roofs button.cta-btn:hover {
-  background-color: var(--secondary); /* Sky Blue */
+  background-color: var(--secondary); 
 }
 
 /* Shingle Roofs Section Styles */
 .shingle-roofs {
   padding: 60px 20px;
-  background-color: var(--background); /* Light Steel Blue background for this section */
+  background-color: var(--background); 
   text-align: center;
 }
 
@@ -139,14 +139,14 @@
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: bold;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary); 
   margin-bottom: 30px;
 }
 
 .shingle-roofs p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: var(--text); /* Slate Gray */
+  color: var(--text); 
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -154,7 +154,7 @@
 .shingle-roofs h2 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary); 
   margin-bottom: 20px;
 }
 
@@ -167,12 +167,12 @@
 .shingle-roofs ul li {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: var(--text); /* Slate Gray */
+  color: var(--text); 
   margin-bottom: 15px;
 }
 
 .shingle-roofs button.cta-btn {
-  background-color: var(--primary); /* Deep Ocean Blue */
+  background-color: var(--primary); 
   color: var(--background);
   padding: 15px 30px;
   border-radius: 25px;
@@ -185,7 +185,7 @@
 }
 
 .shingle-roofs button.cta-btn:hover {
-  background-color: var(--secondary); /* Sky Blue */
+  background-color: var(--secondary); 
 }
 
 /* Flat Roofs Section Styles */
@@ -249,7 +249,7 @@
 }
 
 .flat-roofs button.cta-btn {
-  background-color: var(--primary); /* Deep Ocean Blue */
+  background-color: var(--primary); 
   color: var(--background);
   padding: 15px 30px;
   border-radius: 25px;
@@ -262,13 +262,13 @@
 }
 
 .flat-roofs button.cta-btn:hover {
-  background-color: var(--secondary); /* Sky Blue */
+  background-color: var(--secondary); 
 }
 
 /* Roof Replacement Section Styles */
 .roof-replacement {
   padding: 60px 20px;
-  background-color: var(--background); /* Light Steel Blue background for this section */
+  background-color: var(--background); 
   text-align: center;
 }
 
@@ -281,14 +281,14 @@
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: bold;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary); 
   margin-bottom: 30px;
 }
 
 .roof-replacement p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: var(--text); /* Slate Gray */
+  color: var(--text); 
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -296,7 +296,7 @@
 .roof-replacement h2 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary); 
   margin-bottom: 20px;
 }
 
@@ -309,12 +309,12 @@
 .roof-replacement ul li, .roof-replacement ol li {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: var(--text); /* Slate Gray */
+  color: var(--text); 
   margin-bottom: 15px;
 }
 
 .roof-replacement button.cta-btn {
-  background-color: var(--primary); /* Deep Ocean Blue */
+  background-color: var(--primary); 
   color: var(--background);
   padding: 15px 30px;
   border-radius: 25px;
@@ -327,14 +327,14 @@
 }
 
 .roof-replacement button.cta-btn:hover {
-  background-color: var(--secondary); /* Sky Blue */
+  background-color: var(--secondary); 
 }
 
 /* Consulting Section Styles */
 .consulting {
   padding: 60px 20px;
   width: 100%;
-  background-color: var(--accent); /* Light Steel Blue background for this section */
+  background-color: var(--accent); 
   text-align: center;
 }
 
@@ -347,14 +347,14 @@
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: bold;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary); 
   margin-bottom: 30px;
 }
 
 .consulting p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: var(--text); /* Slate Gray */
+  color: var(--text); 
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -362,7 +362,7 @@
 .consulting h2 {
   font-family: 'Playfair Display', serif;
   font-size: 36px;
-  color: var(--primary); /* Deep Ocean Blue */
+  color: var(--primary); 
   margin-bottom: 20px;
 }
 
@@ -375,12 +375,12 @@
 .consulting ul li {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: var(--text); /* Slate Gray */
+  color: var(--text); 
   margin-bottom: 15px;
 }
 
 .consulting button.cta-btn {
-  background-color: var(--primary); /* Deep Ocean Blue */
+  background-color: var(--primary); 
   color: var(--background);
   padding: 15px 30px;
   border-radius: 25px;
@@ -393,5 +393,5 @@
 }
 
 .consulting button.cta-btn:hover {
-  background-color: var(--secondary); /* Sky Blue */
+  background-color: var(--secondary); 
 }
