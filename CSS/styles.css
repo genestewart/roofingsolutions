@@ -173,6 +173,7 @@ footer .social-media a {
 
 .nav-tray {
   display: flex;
+  margin-right: 30px;
 }
 
 @media (max-width: 1200px) {
