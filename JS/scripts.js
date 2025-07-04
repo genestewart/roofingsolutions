@@ -41,3 +41,30 @@ document.querySelectorAll('.quote-btn').forEach(button => {
     });
   }
 });
+
+// Blog modal functionality
+const blogModal = document.getElementById('blog-modal');
+const modalBody = document.getElementById('modal-body');
+if (blogModal && modalBody) {
+  const closeModal = () => {
+    blogModal.style.display = 'none';
+  };
+
+  document.querySelectorAll('.read-more').forEach(link => {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.getElementById(this.dataset.target);
+      if (target) {
+        modalBody.innerHTML = target.innerHTML;
+        blogModal.style.display = 'block';
+      }
+    });
+  });
+
+  blogModal.querySelector('.close').addEventListener('click', closeModal);
+  window.addEventListener('click', (event) => {
+    if (event.target === blogModal) {
+      closeModal();
+    }
+  });
+}
