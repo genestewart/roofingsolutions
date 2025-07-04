@@ -127,7 +127,7 @@
 
 /* Services Overview */
 .services-overview {
-  background: url('/images/residential/residential-shingle-roof-suburban-homes-50.png') no-repeat center center/cover;
+  background: url('../images/residential/residential-shingle-roof-suburban-homes-50.png') no-repeat center center/cover;
   height: auto;
   padding: 60px 20px;
   display: flex;
@@ -340,4 +340,3 @@
 .cta-btn:hover {
   background-color: #00b4f1;
 }
-
