@@ -64,7 +64,7 @@
 /* Metal Roofs Section Styles */
 .metal-roofs {
   padding: 60px 20px;
-  background: url('/images/commercial/commercial-metal-roof-brick-50.png') no-repeat center center/cover;
+  background: url('../images/commercial/commercial-metal-roof-brick-50.png') no-repeat center center/cover;
   text-align: center;
 }
 
@@ -191,7 +191,7 @@
 /* Flat Roofs Section Styles */
 .flat-roofs {
   padding: 60px 20px;
-  background: url('/images/commercial/commercial-flat-roof-repair-50.png') no-repeat center center/cover;
+  background: url('../images/commercial/commercial-flat-roof-repair-50.png') no-repeat center center/cover;
   text-align: center;
 }
 
