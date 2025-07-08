@@ -327,7 +327,41 @@
     gap: 20px;
   }
   .why-choose-us .text-content {
-  align-items: center; 
-  max-width: 100%; 
+  align-items: center;
+  max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .why-choose-us {
+    padding: 40px 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .why-choose-us .text-content,
+  .contact-us {
+    width: 100%;
+    max-width: none;
+  }
+
+  .contact-us {
+    margin-top: 20px;
+    padding: 20px;
   }
 }
