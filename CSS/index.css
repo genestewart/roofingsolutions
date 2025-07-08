@@ -318,25 +318,16 @@
   color: #003b75;
 }
 
-/* Optional: Styling for the CTA button */
-.cta-btn {
-  background-color: #003b75;
-  color: white;
-  padding: 15px 30px;
-  border-radius: 25px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  cursor: pointer;
-  text-decoration: none;
-  border: none;
-  margin-top: 30px;
-}
-
-.cta-btn a {
-  text-decoration: none;
-  color: white;
-}
-
-.cta-btn:hover {
-  background-color: #00b4f1;
+@media (max-width: 1200px) {
+  .why-choose-us {
+    height: auto;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .why-choose-us .text-content {
+  align-items: center; 
+  max-width: 100%; 
+  }
 }
